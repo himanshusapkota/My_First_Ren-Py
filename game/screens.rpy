@@ -73,17 +73,18 @@ style frame:
 
 
 
-
 screen say(who, what):
 
     window:
         id "window"
 
         xalign 0.5
-        yalign 0.85
+        yalign 1.0
 
-        xsize 800
-        ysize 140
+        yoffset -25
+
+        xsize 850
+        ysize 130
 
         background "#000000CC"
 
@@ -97,8 +98,8 @@ screen say(who, what):
 
             text what:
                 id "what"
-                size 22
-
+                size 24
+                text_align 0.5
    
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
