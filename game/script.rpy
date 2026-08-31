@@ -1,26 +1,41 @@
-﻿# The script of the game goes in this file.
+﻿
 
 
-define e = Character("Eileen")
-
+default Mona = Character('Mona', color="#E03B8B")
 
 
 label start:
 
- 
+    "During a video tutorial…"
+    show bg classroom
 
-    scene bg room
-
-
-
-    show eileen happy
+    "Mona" "Hey! -Welcome to my renpy tut"
 
 
+    "Mona" "I'm Mona,"
 
-    e "AH REALLY"
+label sprites:
 
-    e "THE NEW ONE INTO RENPY"
+    "Mona" "But wait..."
 
- 
+    "Mona" "Where did you go?"
+
+    show zeil delighted
+
+    "Mona" "Oh! There you are."
+
+    show zeil angry
+
+    "Mona" "It's not like I was worried about you or anything."
+
+    show extra normal at right
+
+    "Random Girl" "Tsundere..."
+
+    hide extra
+
+    "Mona" "..."
+
+    "Mona" "Anyway... let's continue the tutorial."
 
     return
