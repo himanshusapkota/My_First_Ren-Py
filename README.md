@@ -3,6 +3,8 @@
 This is the first game I made using **Ren'Py**.
 
 I am learning Ren'Py and created this small visual novel to practice game development. It includes character dialogue, different expressions, scenes, and sound effects.
+<img width="1861" height="957" alt="image" src="https://github.com/user-attachments/assets/faf20918-71c1-4984-b5a6-bbd28cd0dfbb" />
+
 
 ## About
 
