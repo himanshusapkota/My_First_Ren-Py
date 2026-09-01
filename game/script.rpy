@@ -1,8 +1,8 @@
 ﻿
+#AND HERE I START THE GAME WITH A PLAN
+
 define The_Knight = Character("Knight", color="#E03B8B")
 define Unknown = Character("Unknown", color="#AAAAAA")
-
-
 
 image knight neutral1 = "images/Neutral 1.png"
 image knight neutral2 = "images/Neutral 2.png"
@@ -13,19 +13,11 @@ image knight smile1 = "images/Smile 1.png"
 image knight smile2 = "images/Smile 2.png"
 image knight smirk1 = "images/Smirk 1.png"
 image knight smirk2 = "images/Smirk 2.png"
-
-
-
-
 image bg room = "images/bg room.jpg"
 image phone = "images/phone.png"
 
 
-
 default picked_phone = False
-
-
-
 
 label start:
 
@@ -39,18 +31,18 @@ label start:
         xalign 0.5
         yalign 1.0
 
-    The_Knight "Where am I?"
+    The_Knight "Where I am!"
 
-    The_Knight "..."
+    The_Knight "???.....???"
 
     show knight shock:
         zoom 1.5
         xalign 0.5
         yalign 1.0
 
-    The_Knight "What am I even doing here?!"
+    The_Knight "What am I doing here?"
 
-    The_Knight "Is anybody here?!"
+    The_Knight "Hey Anybody here?"
 
     show knight angry:
         zoom 1.5
@@ -100,9 +92,6 @@ label start:
 
     The_Knight "And why is it ringing?"
 
-
-  
-
     menu:
 
         "Pick up the phone":
@@ -112,8 +101,6 @@ label start:
         "Don't pick up the phone":
 
             $ picked_phone = False
-
-
 
     if picked_phone:
 
@@ -159,12 +146,9 @@ label start:
 
         "..."
 
-        "ENDING 1: THE CALL"
+        "ENDING 1: I am Making Further But It is horror "
 
         return
-
-
-
     else:
 
         stop sound
@@ -220,6 +204,7 @@ label start:
 
         The_Knight "..."
 
-        "ENDING 2: THE SILENCE"
-
+        "ENDING 2:The END and Somebody took the knight.(Next Part Soon!!!) "
         return
+
+

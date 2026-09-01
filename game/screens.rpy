@@ -72,7 +72,6 @@ style frame:
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
 
-
 screen say(who, what):
 
     window:
@@ -80,7 +79,6 @@ screen say(who, what):
 
         xalign 0.5
         yalign 1.0
-
         yoffset -25
 
         xsize 850
@@ -91,18 +89,21 @@ screen say(who, what):
         vbox:
             spacing 5
 
+            xalign 0.5
+            yoffset -15
+
             if who:
                 text who:
                     id "who"
                     size 28
+                    xalign 0.5
 
             text what:
                 id "what"
-                size 24
-                text_align 0.5
+                xalign 0.5
    
     if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+        add SideImage() xalign 0.5 yalign 0.5
 
 
 

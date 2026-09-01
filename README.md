@@ -1,31 +1,30 @@
-## The Knight and the Phone Call
+# The Knight and the Phone Call
 
-This is the first game I made using Ren'Py.
+This is the first game I made using **Ren'Py**.
 
-I am Learning Ren'Py and created this small visual novel game to practice game development.It includes character dialogue, expressions, different scenes, and sound effects.
-
-
+I am learning Ren'Py and created this small visual novel to practice game development. It includes character dialogue, different expressions, scenes, and sound effects.
 
 ## About
 
-I made this project to learn how visual novels work and to get familiar with Ren'Py Scripting.
+I made this project to learn how visual novels work and to get familiar with Ren'Py scripting.
 
-While Making this game, I learned how to
+While making this game, I learned how to:
 
--Create and Use Character
--Add Character Expression
--Change BackGrounds
--Write Dialouge and Scene
--Add Sound Effect
--Use Basic Renpy Scripting.
--Organize Game Assets.
+- Create and use characters
+- Add different character expressions
+- Change backgrounds
+- Write dialogue and scenes
+- Add sound effects
+- Use basic Ren'Py scripting
+- Organize game assets
 
-## Built With 
--Renpy Scripting
+## Built With
+
+- **Ren'Py Scripting**
 
 ## Running the Game
 
-1. Download or clone this repository.
+1. Clone this repository.
 2. Install [Ren'Py](https://www.renpy.org/).
 3. Open the project using the Ren'Py Launcher.
 4. Select the project.
@@ -35,8 +34,10 @@ While Making this game, I learned how to
 
 This was mainly a learning project, but it helped me understand how Ren'Py projects are structured and how dialogue-driven games are created.
 
+I also learned how to work with sprites, backgrounds, dialogue, and audio to build a simple visual novel.
+
 ## Made By
 
-Himanshu Sapkota
+**Himanshu Sapkota**
 
 Made as my first Ren'Py project while learning game development.
